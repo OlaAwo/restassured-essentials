@@ -16,5 +16,5 @@ out/
 *.iws
 
 ## Misc ##
-*.log
-*.txt
+.log
+.txt
