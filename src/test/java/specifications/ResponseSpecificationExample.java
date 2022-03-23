@@ -21,7 +21,7 @@ public class ResponseSpecificationExample {
     public void beforeClass() {
         RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder().
                 setBaseUri("https://api.getpostman.com").
-                addHeader("X-Api-Key", "PMAK-61a193300e760a0051a14183-c65f222194799129841f7498a453b536ea");
+                addHeader("X-Api-Key", "");
         RestAssured.requestSpecification = requestSpecBuilder.build();
         requestSpecBuilder.log(LogDetail.ALL);
 
