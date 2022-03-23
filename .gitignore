@@ -14,3 +14,7 @@ out/
 *.iml
 *.ipr
 *.iws
+
+## Misc ##
+*.log
+*.txt
