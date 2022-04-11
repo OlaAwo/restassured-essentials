@@ -17,5 +17,6 @@ public class Base64Encoding {
         // decode base64 to string
         byte[] decodeBytes = Base64.getDecoder().decode(base64Encoded);
         System.out.println("Decoded = " + new String(decodeBytes));
+
     }
 }
